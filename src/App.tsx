@@ -5,7 +5,7 @@ type Position = { x: number; y: number };
 
 const GRID_SIZE = 20;
 const CELL_SIZE = 20;
-const INITIAL_SPEED = 150;
+const INITIAL_SPEED = 50;
 
 function App() {
   const [snake, setSnake] = useState<Position[]>([{ x: 10, y: 10 }]);
